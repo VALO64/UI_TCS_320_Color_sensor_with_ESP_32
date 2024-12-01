@@ -35,30 +35,30 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.btnConectar = new System.Windows.Forms.Button();
-            this.btnDesconectar = new System.Windows.Forms.Button();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
-            this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.BaudRate = new System.Windows.Forms.ComboBox();
+            this.COM = new System.Windows.Forms.ComboBox();
+            this.btnDesconectar = new System.Windows.Forms.Button();
+            this.btnConectar = new System.Windows.Forms.Button();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.pictureazul = new System.Windows.Forms.PictureBox();
-            this.picturerojo = new System.Windows.Forms.PictureBox();
-            this.pictureverde = new System.Windows.Forms.PictureBox();
-            this.label7 = new System.Windows.Forms.Label();
-            this.picturepistondesactivado = new System.Windows.Forms.PictureBox();
             this.picturepistonactivado = new System.Windows.Forms.PictureBox();
+            this.picturepistondesactivado = new System.Windows.Forms.PictureBox();
+            this.label7 = new System.Windows.Forms.Label();
+            this.pictureverde = new System.Windows.Forms.PictureBox();
+            this.picturerojo = new System.Windows.Forms.PictureBox();
+            this.pictureazul = new System.Windows.Forms.PictureBox();
+            this.btnVerde = new System.Windows.Forms.Button();
+            this.btnRojo = new System.Windows.Forms.Button();
+            this.btnAzul = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureazul)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picturerojo)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureverde)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picturepistondesactivado)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picturepistonactivado)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picturepistondesactivado)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureverde)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picturerojo)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureazul)).BeginInit();
             this.SuspendLayout();
             // 
             // pictureBox1
@@ -124,8 +124,8 @@
             // 
             this.groupBox1.Controls.Add(this.label6);
             this.groupBox1.Controls.Add(this.label5);
-            this.groupBox1.Controls.Add(this.comboBox2);
-            this.groupBox1.Controls.Add(this.comboBox1);
+            this.groupBox1.Controls.Add(this.BaudRate);
+            this.groupBox1.Controls.Add(this.COM);
             this.groupBox1.Controls.Add(this.btnDesconectar);
             this.groupBox1.Controls.Add(this.btnConectar);
             this.groupBox1.Location = new System.Drawing.Point(14, 142);
@@ -133,58 +133,6 @@
             this.groupBox1.Size = new System.Drawing.Size(208, 250);
             this.groupBox1.TabIndex = 5;
             this.groupBox1.TabStop = false;
-            // 
-            // btnConectar
-            // 
-            this.btnConectar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(85)))), ((int)(((byte)(150)))), ((int)(((byte)(255)))));
-            this.btnConectar.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnConectar.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btnConectar.Location = new System.Drawing.Point(20, 157);
-            this.btnConectar.Name = "btnConectar";
-            this.btnConectar.Size = new System.Drawing.Size(168, 24);
-            this.btnConectar.TabIndex = 0;
-            this.btnConectar.Text = "Conectar";
-            this.btnConectar.UseVisualStyleBackColor = false;
-            // 
-            // btnDesconectar
-            // 
-            this.btnDesconectar.BackColor = System.Drawing.Color.DarkOrange;
-            this.btnDesconectar.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnDesconectar.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btnDesconectar.Location = new System.Drawing.Point(20, 199);
-            this.btnDesconectar.Name = "btnDesconectar";
-            this.btnDesconectar.Size = new System.Drawing.Size(168, 24);
-            this.btnDesconectar.TabIndex = 1;
-            this.btnDesconectar.Text = "Desconectar";
-            this.btnDesconectar.UseVisualStyleBackColor = false;
-            // 
-            // comboBox1
-            // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(20, 48);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(168, 23);
-            this.comboBox1.TabIndex = 2;
-            // 
-            // comboBox2
-            // 
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Location = new System.Drawing.Point(20, 111);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(168, 23);
-            this.comboBox2.TabIndex = 3;
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label5.Location = new System.Drawing.Point(18, 18);
-            this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(58, 19);
-            this.label5.TabIndex = 4;
-            this.label5.Text = "Puerto:";
             // 
             // label6
             // 
@@ -198,6 +146,60 @@
             this.label6.TabIndex = 5;
             this.label6.Text = "Baud Rate:";
             // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label5.Location = new System.Drawing.Point(18, 18);
+            this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(58, 19);
+            this.label5.TabIndex = 4;
+            this.label5.Text = "Puerto:";
+            // 
+            // BaudRate
+            // 
+            this.BaudRate.FormattingEnabled = true;
+            this.BaudRate.Location = new System.Drawing.Point(20, 111);
+            this.BaudRate.Name = "BaudRate";
+            this.BaudRate.Size = new System.Drawing.Size(168, 23);
+            this.BaudRate.TabIndex = 3;
+            // 
+            // COM
+            // 
+            this.COM.FormattingEnabled = true;
+            this.COM.Location = new System.Drawing.Point(20, 48);
+            this.COM.Name = "COM";
+            this.COM.Size = new System.Drawing.Size(168, 23);
+            this.COM.TabIndex = 2;
+            // 
+            // btnDesconectar
+            // 
+            this.btnDesconectar.BackColor = System.Drawing.Color.DarkOrange;
+            this.btnDesconectar.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnDesconectar.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btnDesconectar.Location = new System.Drawing.Point(20, 199);
+            this.btnDesconectar.Name = "btnDesconectar";
+            this.btnDesconectar.Size = new System.Drawing.Size(168, 24);
+            this.btnDesconectar.TabIndex = 1;
+            this.btnDesconectar.Text = "Desconectar";
+            this.btnDesconectar.UseVisualStyleBackColor = false;
+            this.btnDesconectar.Click += new System.EventHandler(this.btnDesconectar_Click);
+            // 
+            // btnConectar
+            // 
+            this.btnConectar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(85)))), ((int)(((byte)(150)))), ((int)(((byte)(255)))));
+            this.btnConectar.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnConectar.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btnConectar.Location = new System.Drawing.Point(20, 157);
+            this.btnConectar.Name = "btnConectar";
+            this.btnConectar.Size = new System.Drawing.Size(168, 24);
+            this.btnConectar.TabIndex = 0;
+            this.btnConectar.Text = "Conectar";
+            this.btnConectar.UseVisualStyleBackColor = false;
+            this.btnConectar.Click += new System.EventHandler(this.btnConectar_Click);
+            // 
             // groupBox2
             // 
             this.groupBox2.Controls.Add(this.picturepistonactivado);
@@ -206,83 +208,35 @@
             this.groupBox2.Controls.Add(this.pictureverde);
             this.groupBox2.Controls.Add(this.picturerojo);
             this.groupBox2.Controls.Add(this.pictureazul);
-            this.groupBox2.Controls.Add(this.button3);
-            this.groupBox2.Controls.Add(this.button2);
-            this.groupBox2.Controls.Add(this.button1);
+            this.groupBox2.Controls.Add(this.btnVerde);
+            this.groupBox2.Controls.Add(this.btnRojo);
+            this.groupBox2.Controls.Add(this.btnAzul);
             this.groupBox2.Location = new System.Drawing.Point(250, 146);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(494, 195);
             this.groupBox2.TabIndex = 6;
             this.groupBox2.TabStop = false;
             // 
-            // button1
+            // picturepistonactivado
             // 
-            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(95)))), ((int)(((byte)(120)))));
-            this.button1.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button1.Location = new System.Drawing.Point(21, 121);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(168, 24);
-            this.button1.TabIndex = 1;
-            this.button1.Text = "Azul";
-            this.button1.UseVisualStyleBackColor = false;
+            this.picturepistonactivado.Image = ((System.Drawing.Image)(resources.GetObject("picturepistonactivado.Image")));
+            this.picturepistonactivado.Location = new System.Drawing.Point(343, 46);
+            this.picturepistonactivado.Name = "picturepistonactivado";
+            this.picturepistonactivado.Size = new System.Drawing.Size(101, 131);
+            this.picturepistonactivado.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picturepistonactivado.TabIndex = 9;
+            this.picturepistonactivado.TabStop = false;
+            this.picturepistonactivado.Visible = false;
             // 
-            // button2
+            // picturepistondesactivado
             // 
-            this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(60)))), ((int)(((byte)(60)))));
-            this.button2.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button2.Location = new System.Drawing.Point(21, 42);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(168, 24);
-            this.button2.TabIndex = 2;
-            this.button2.Text = "Rojo";
-            this.button2.UseVisualStyleBackColor = false;
-            // 
-            // button3
-            // 
-            this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(200)))), ((int)(((byte)(90)))));
-            this.button3.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button3.Location = new System.Drawing.Point(21, 81);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(168, 24);
-            this.button3.TabIndex = 3;
-            this.button3.Text = "Verde";
-            this.button3.UseVisualStyleBackColor = false;
-            // 
-            // pictureazul
-            // 
-            this.pictureazul.Image = ((System.Drawing.Image)(resources.GetObject("pictureazul.Image")));
-            this.pictureazul.Location = new System.Drawing.Point(218, 46);
-            this.pictureazul.Name = "pictureazul";
-            this.pictureazul.Size = new System.Drawing.Size(100, 100);
-            this.pictureazul.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureazul.TabIndex = 4;
-            this.pictureazul.TabStop = false;
-            this.pictureazul.Visible = false;
-            // 
-            // picturerojo
-            // 
-            this.picturerojo.Image = ((System.Drawing.Image)(resources.GetObject("picturerojo.Image")));
-            this.picturerojo.Location = new System.Drawing.Point(220, 45);
-            this.picturerojo.Name = "picturerojo";
-            this.picturerojo.Size = new System.Drawing.Size(100, 100);
-            this.picturerojo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.picturerojo.TabIndex = 5;
-            this.picturerojo.TabStop = false;
-            this.picturerojo.Visible = false;
-            // 
-            // pictureverde
-            // 
-            this.pictureverde.Image = ((System.Drawing.Image)(resources.GetObject("pictureverde.Image")));
-            this.pictureverde.Location = new System.Drawing.Point(220, 46);
-            this.pictureverde.Name = "pictureverde";
-            this.pictureverde.Size = new System.Drawing.Size(100, 100);
-            this.pictureverde.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureverde.TabIndex = 6;
-            this.pictureverde.TabStop = false;
-            this.pictureverde.Visible = false;
+            this.picturepistondesactivado.Image = ((System.Drawing.Image)(resources.GetObject("picturepistondesactivado.Image")));
+            this.picturepistondesactivado.Location = new System.Drawing.Point(342, 46);
+            this.picturepistondesactivado.Name = "picturepistondesactivado";
+            this.picturepistondesactivado.Size = new System.Drawing.Size(101, 131);
+            this.picturepistondesactivado.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picturepistondesactivado.TabIndex = 8;
+            this.picturepistondesactivado.TabStop = false;
             // 
             // label7
             // 
@@ -296,26 +250,77 @@
             this.label7.TabIndex = 7;
             this.label7.Text = "Clasificación de colores:";
             // 
-            // picturepistondesactivado
+            // pictureverde
             // 
-            this.picturepistondesactivado.Image = ((System.Drawing.Image)(resources.GetObject("picturepistondesactivado.Image")));
-            this.picturepistondesactivado.Location = new System.Drawing.Point(342, 46);
-            this.picturepistondesactivado.Name = "picturepistondesactivado";
-            this.picturepistondesactivado.Size = new System.Drawing.Size(101, 131);
-            this.picturepistondesactivado.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.picturepistondesactivado.TabIndex = 8;
-            this.picturepistondesactivado.TabStop = false;
+            this.pictureverde.Image = ((System.Drawing.Image)(resources.GetObject("pictureverde.Image")));
+            this.pictureverde.Location = new System.Drawing.Point(220, 46);
+            this.pictureverde.Name = "pictureverde";
+            this.pictureverde.Size = new System.Drawing.Size(100, 100);
+            this.pictureverde.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureverde.TabIndex = 6;
+            this.pictureverde.TabStop = false;
+            this.pictureverde.Visible = false;
             // 
-            // picturepistonactivado
+            // picturerojo
             // 
-            this.picturepistonactivado.Image = ((System.Drawing.Image)(resources.GetObject("picturepistonactivado.Image")));
-            this.picturepistonactivado.Location = new System.Drawing.Point(343, 46);
-            this.picturepistonactivado.Name = "picturepistonactivado";
-            this.picturepistonactivado.Size = new System.Drawing.Size(101, 131);
-            this.picturepistonactivado.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.picturepistonactivado.TabIndex = 9;
-            this.picturepistonactivado.TabStop = false;
-            this.picturepistonactivado.Visible = false;
+            this.picturerojo.Image = ((System.Drawing.Image)(resources.GetObject("picturerojo.Image")));
+            this.picturerojo.Location = new System.Drawing.Point(220, 45);
+            this.picturerojo.Name = "picturerojo";
+            this.picturerojo.Size = new System.Drawing.Size(100, 100);
+            this.picturerojo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picturerojo.TabIndex = 5;
+            this.picturerojo.TabStop = false;
+            this.picturerojo.Visible = false;
+            // 
+            // pictureazul
+            // 
+            this.pictureazul.Image = ((System.Drawing.Image)(resources.GetObject("pictureazul.Image")));
+            this.pictureazul.Location = new System.Drawing.Point(218, 46);
+            this.pictureazul.Name = "pictureazul";
+            this.pictureazul.Size = new System.Drawing.Size(100, 100);
+            this.pictureazul.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureazul.TabIndex = 4;
+            this.pictureazul.TabStop = false;
+            this.pictureazul.Visible = false;
+            // 
+            // btnVerde
+            // 
+            this.btnVerde.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(200)))), ((int)(((byte)(90)))));
+            this.btnVerde.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnVerde.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btnVerde.Location = new System.Drawing.Point(21, 81);
+            this.btnVerde.Name = "btnVerde";
+            this.btnVerde.Size = new System.Drawing.Size(168, 24);
+            this.btnVerde.TabIndex = 3;
+            this.btnVerde.Text = "Verde";
+            this.btnVerde.UseVisualStyleBackColor = false;
+            this.btnVerde.Click += new System.EventHandler(this.btnVerde_Click);
+            // 
+            // btnRojo
+            // 
+            this.btnRojo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(180)))), ((int)(((byte)(60)))), ((int)(((byte)(60)))));
+            this.btnRojo.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnRojo.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btnRojo.Location = new System.Drawing.Point(21, 42);
+            this.btnRojo.Name = "btnRojo";
+            this.btnRojo.Size = new System.Drawing.Size(168, 24);
+            this.btnRojo.TabIndex = 2;
+            this.btnRojo.Text = "Rojo";
+            this.btnRojo.UseVisualStyleBackColor = false;
+            this.btnRojo.Click += new System.EventHandler(this.btnRojo_Click);
+            // 
+            // btnAzul
+            // 
+            this.btnAzul.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(95)))), ((int)(((byte)(120)))));
+            this.btnAzul.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAzul.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btnAzul.Location = new System.Drawing.Point(21, 121);
+            this.btnAzul.Name = "btnAzul";
+            this.btnAzul.Size = new System.Drawing.Size(168, 24);
+            this.btnAzul.TabIndex = 1;
+            this.btnAzul.Text = "Azul";
+            this.btnAzul.UseVisualStyleBackColor = false;
+            this.btnAzul.Click += new System.EventHandler(this.btnAzul_Click);
             // 
             // Form1
             // 
@@ -339,11 +344,11 @@
             this.groupBox1.PerformLayout();
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureazul)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picturerojo)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureverde)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picturepistondesactivado)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picturepistonactivado)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picturepistondesactivado)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureverde)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picturerojo)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureazul)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -360,13 +365,13 @@
         private System.Windows.Forms.Button btnConectar;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.ComboBox comboBox2;
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.ComboBox BaudRate;
+        private System.Windows.Forms.ComboBox COM;
         private System.Windows.Forms.Button btnDesconectar;
         private System.Windows.Forms.GroupBox groupBox2;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnVerde;
+        private System.Windows.Forms.Button btnRojo;
+        private System.Windows.Forms.Button btnAzul;
         private System.Windows.Forms.PictureBox pictureverde;
         private System.Windows.Forms.PictureBox picturerojo;
         private System.Windows.Forms.PictureBox pictureazul;
