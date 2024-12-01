@@ -1,0 +1,10 @@
+D:\TEC\Hidraulica\Proyecto_final\Codes\UI_TCS_320_with_ESP_32\UI_TCS_320_with_ESP_32\bin\Debug\UI_TCS_320_with_ESP_32.exe.config
+D:\TEC\Hidraulica\Proyecto_final\Codes\UI_TCS_320_with_ESP_32\UI_TCS_320_with_ESP_32\bin\Debug\UI_TCS_320_with_ESP_32.exe
+D:\TEC\Hidraulica\Proyecto_final\Codes\UI_TCS_320_with_ESP_32\UI_TCS_320_with_ESP_32\bin\Debug\UI_TCS_320_with_ESP_32.pdb
+D:\TEC\Hidraulica\Proyecto_final\Codes\UI_TCS_320_with_ESP_32\UI_TCS_320_with_ESP_32\obj\Debug\UI_TCS_320_with_ESP_32.csproj.AssemblyReference.cache
+D:\TEC\Hidraulica\Proyecto_final\Codes\UI_TCS_320_with_ESP_32\UI_TCS_320_with_ESP_32\obj\Debug\UI_TCS_320_with_ESP_32.Form1.resources
+D:\TEC\Hidraulica\Proyecto_final\Codes\UI_TCS_320_with_ESP_32\UI_TCS_320_with_ESP_32\obj\Debug\UI_TCS_320_with_ESP_32.Properties.Resources.resources
+D:\TEC\Hidraulica\Proyecto_final\Codes\UI_TCS_320_with_ESP_32\UI_TCS_320_with_ESP_32\obj\Debug\UI_TCS_320_with_ESP_32.csproj.GenerateResource.cache
+D:\TEC\Hidraulica\Proyecto_final\Codes\UI_TCS_320_with_ESP_32\UI_TCS_320_with_ESP_32\obj\Debug\UI_TCS_320_with_ESP_32.csproj.CoreCompileInputs.cache
+D:\TEC\Hidraulica\Proyecto_final\Codes\UI_TCS_320_with_ESP_32\UI_TCS_320_with_ESP_32\obj\Debug\UI_TCS_320_with_ESP_32.exe
+D:\TEC\Hidraulica\Proyecto_final\Codes\UI_TCS_320_with_ESP_32\UI_TCS_320_with_ESP_32\obj\Debug\UI_TCS_320_with_ESP_32.pdb
